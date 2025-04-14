@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng nhập</h2>
+        <input type="text" id="txtLoginEmail" placeholder="Tên đăng nhập">
+        <input type="password" id="txtLoginPassword" placeholder="Mật khẩu">
+        <p class="loginError"></p>
+        <button id="btnLogin" onclick="login()">Đăng nhập</button>
+        <p class="loginDown">Chưa có tài khoản? <a href="register.html">Đăng ký ngay</a></p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

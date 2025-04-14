@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng ký</h2>
+        <input type="text" id="txtRegisterEmail" placeholder="Tên tài khoản" required>
+        <input type="password" id="txtRegisterPassword" placeholder="Mật khẩu" required>
+        <input type="password" id="txtRegisterConfirmPassword" placeholder="Xác nhận mật khẩu" required>
+        <p class="emailError"></p>
+        <button id="btnRegister" onclick="register()">Đăng ký</button>
+        <p class="loginDown">Đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.g-8 {
+    gap: 8px;
+}
+.g-10 {
+    gap: 10px;
+}
+.g-12 {
+    gap: 12px;
+}
+.w-150 {
+    width: 150px;
+}
+.h-42 {
+    height: 42px;
+}
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mt-100{
+    margin-top: 100px;
+} 
